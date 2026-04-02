@@ -2,13 +2,20 @@
 
 # dependencies
 /node_modules
+/frontend/node_modules
+/frontend/node_modules_incomplete_backup
+/.pnpm-store
 
 # next.js
 /.next/
+/frontend/.next/
+/frontend/.next_moved_backup/
 /out/
+/frontend/out/
 
 # production
 /build
+/frontend/build
 
 # debug
 npm-debug.log*
@@ -26,3 +33,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# backend local environments
+/backend/venv/
+/backend/.venv/
